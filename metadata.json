@@ -1,0 +1,6 @@
+{
+  "name": "PowerSim - Power Electronics Converter Laboratory",
+  "description": "Interactive virtual laboratory for power electronic converters: half-wave, full-wave, controlled, semi-controlled rectifiers, buck, boost, and inverter with animated schematics, real-time waveforms, and analytical measurements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

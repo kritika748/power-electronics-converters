@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+  background-color: #080911;
+  color: #f1f5f9;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -28;
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #090a14;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #252844;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #3c416c;
+}
